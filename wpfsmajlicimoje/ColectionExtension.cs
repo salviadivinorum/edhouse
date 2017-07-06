@@ -22,7 +22,6 @@ namespace wpfsmajlicimoje
         public static T RandomElement<T>(this T[] array)
         {
             return array[rng.Next(array.Length)];
-        }
-        
+        }        
     }
 }
