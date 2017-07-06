@@ -22,8 +22,11 @@ Princip castecneho reseni:
 
 
 Cas straveny na projektu - 16hod
+
 6.7.2017
+
 DJ
+
 
 
 
