@@ -1,0 +1,13 @@
+﻿<Window x:Class="wpfsmajlicimoje.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpfsmajlicimoje"
+        mc:Ignorable="d"
+        Title="Permutace ctvercu se smajliky" Height="149.879" Width="320.621">
+    <Grid Name="mriz" >
+        <Button Content="Start vypoctu permutaci" HorizontalAlignment="Left" Margin="85,33,0,0" VerticalAlignment="Top" Width="151" Height="44" Click="Button_Click"/>
+
+    </Grid>
+</Window>
