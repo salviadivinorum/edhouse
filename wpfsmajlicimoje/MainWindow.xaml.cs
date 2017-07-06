@@ -115,20 +115,24 @@ namespace wpfsmajlicimoje
                     (DD[1].Substring(0, 2) != AA[3].Substring(0, 2)) &&
 
                     (DD[3].Substring(2, 2) == GG[1].Substring(2, 2)) &&
-                    (DD[3].Substring(0, 2) != GG[1].Substring(0, 2)) &&
+                    (DD[3].Substring(0, 2) != GG[1].Substring(0, 2)) 
 
 
-                    // podminka na pravou vertikalu  - NAJDE CELKEM 8 SMAJLIKU                  
+                    // podminka na pravou vertikalu  - NAJDE CELKEM 8 SMAJLIKU 
+                    /*
                     (FF[1].Substring(2, 2) == CC[3].Substring(2, 2)) &&
                     (FF[1].Substring(0, 2) != CC[3].Substring(0, 2)) &&
                     (FF[3].Substring(2, 2) == II[1].Substring(2, 2)) &&
-                    (FF[3].Substring(0, 2) != II[1].Substring(0, 2)) &&
+                    (FF[3].Substring(0, 2) != II[1].Substring(0, 2)) 
+                    */
                     // az sem to zvladne spravny vysleddek do 6min vypocist
 
 
                     // mozna to ma smysl porovnavat dal, moznosti ks desek = 4^9 * 9! = 9.5 E10 = 3.5dne vypoctu (MAXIMALNE)
-                    // diky technice "deska.AllB.RandomElement()" je pravdepodobnost nalezu nizsi ale i vyssi
+                    // diky technice pseudonahodneho vyberu pocatecniho otoceni crtverecku je pravdepodobnost nalezu casove jina mozna nizsi
+                    // odstran spodni komentar a cekej 3.2 dny 
 
+                    /*
                     // horni veritkala - NAJDE CELKEM 10 SMAJLIKU
                     (AA[2].Substring(2,2) == BB[4].Substring(2,2)) &&
                     (AA[2].Substring(0,2) != BB[4].Substring(0,2)) &&
@@ -140,6 +144,7 @@ namespace wpfsmajlicimoje
                     (GG[2].Substring(0,2) != HH[4].Substring(0,2)) &&
                     (HH[2].Substring(2, 2) == II[4].Substring(2, 2)) &&
                     (HH[2].Substring(0, 2) != II[4].Substring(0, 2)) 
+                    */
 
                     )
                 {
