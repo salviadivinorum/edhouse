@@ -2,11 +2,10 @@
 Captchta úkol "Smajlíci"
 -----------------------------
 
-Zadanim byla captcha ze zadane sady "smajliku" poslanych ve word dokumentu. Tuto sestavu 9ks pomichanych ctvercu poskladat pomoci C# kodu v rozumnem case. Pravdepodobne - do podoby usmivajicich se obliceju stejne barvy. Me reseni je patrno z obrazku: 
+Zadanim byla captcha ze zadane sady "smajliku" poslanych ve word dokumentu. Tuto sestavu 9ks pomichanych ctvercu poskladat pomoci C# kodu v rozumnem case. Pravdepodobne - do podoby usmivajicich se obliceju stejne barvy. Me reseni je patrno z png, jpg a pdf souboru vyse.
 
-"ctverce CB pro me rozdeleno.jpg"
 
-Vice v komentarich meho kodu.
+Vice uvadim v komentarich meho kodu. Jedna se o pracovni verzi, ktera nema vubec vypracovane GUI. Snazil jsem o max strucnost.
 
 Princip castecneho reseni:
 -------------------------
