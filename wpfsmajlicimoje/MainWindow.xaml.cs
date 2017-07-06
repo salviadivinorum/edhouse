@@ -4,7 +4,9 @@ using System.Diagnostics;
 
 namespace wpfsmajlicimoje
 {
-   // Predpokladem je zaply Vystup z Debuggeru, tam se hlasi data programu !
+    // Predpokladem je zaply Vystup z Debuggeru, tam se hlasi data programu !
+    // Vysledkem je MessageBox co hlasi string - radu ctvercu:
+    // radu ctvercu je e formatu napr, "A1B2C3 D4E1F2 G1H1I3" - logicky 1.rada, 2.rada, 3. rada ctverecku
    
 
     public partial class MainWindow : Window
@@ -42,7 +44,7 @@ namespace wpfsmajlicimoje
                 // vlastni porovnani zda sedi oci+pusa+barva sousednich ctvercu
                 Porovnani();
                 stopWatch.Stop();
-                Debug.Print($"Cyklus vypoctu {permutatitons.Count} permutaci trval {stopWatch.ElapsedMilliseconds} milisekund");
+                Debug.Print($"Cyklus vypoctu a porovnani {permutatitons.Count} permutaci trval {stopWatch.ElapsedMilliseconds} milisekund");
                 stopWatch.Reset();
             }
             while (uspech == false);
@@ -107,15 +109,17 @@ namespace wpfsmajlicimoje
 
                    (EE[4].Substring(2, 2) == DD[2].Substring(2, 2)) &&
                    (EE[4].Substring(0, 2) != DD[2].Substring(0, 2)) &&
-                    // az sem to zvladne spravne vypocitat do 5s
+                    // az sem to zvladne spravne vypocitat do 0s
 
 
                     //podminka na levou vertiaklu = NAJDE CELKEM 6 SMAJLIKU
                     (DD[1].Substring(2, 2) == AA[3].Substring(2, 2)) &&
                     (DD[1].Substring(0, 2) != AA[3].Substring(0, 2)) &&
+                    // az sem to zvladne spravne vypocitat do 10ms
 
                     (DD[3].Substring(2, 2) == GG[1].Substring(2, 2)) &&
-                    (DD[3].Substring(0, 2) != GG[1].Substring(0, 2)) 
+                    (DD[3].Substring(0, 2) != GG[1].Substring(0, 2))
+                    // az sem to zvladne spravny vysleddek do 30s vypocist
 
 
                     // podminka na pravou vertikalu  - NAJDE CELKEM 8 SMAJLIKU 
